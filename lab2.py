@@ -7,7 +7,6 @@ df = pd.read_excel("Mantamonis_bacterial_contamination_analysis.xlsx")
 df = df[["contig ID","Seq Coverage"]]
 
 #sorting
-df.sort_values(by=["Seq Coverage"], ascending=False) #sorting in descending order
+df.sort_values(by=["Seq Coverage"], ascending=False, inplace=True) #sorting in descending order
 
-#print(df.head())
-#printing only the top 5
+df.to_excel("output.xlsx", sheet_name="filter_mantamonis", index=False)
