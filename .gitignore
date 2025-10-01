@@ -1,4 +1,6 @@
-#*
+*
 
-#!CDD_ML_Part_1_Acetylcholinesterase_Bioactivity_Data_Concised.ipynb
-#!.gitignore
+
+!bioinformatics_freecodecamp/
+!bioinformatics_freecodecamp/CDD_ML_Part_1_Acetylcholinesterase_Bioactivity_Data_Concised.ipynb
+!.gitignore
