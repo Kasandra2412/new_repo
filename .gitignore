@@ -1,8 +1,6 @@
 *
 !.gitignore
 
-!filtered_mantamonis.xlsx
-
 !bioinformatics_freecodecamp/
 
 bioinformatics_freecodecamp/*
